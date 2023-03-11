@@ -1,0 +1,27 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Tamaños */
+
+.background-width {
+    background-color: #E86A92;
+    font-weight: bolder;
+    width: auto;
+    height: 50px;
+}
+
+.background-height {
+    background-color: #F7A072;
+    font-weight: bolder;
+    width: auto;
+    height: 100px;
+}
+
+.card {
+    border-style: solid;
+    border-color: rgb(100, 0, 200);
+    border-width: 5px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
