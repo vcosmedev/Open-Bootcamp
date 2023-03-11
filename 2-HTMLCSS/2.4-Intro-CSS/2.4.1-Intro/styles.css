@@ -1,0 +1,10 @@
+/* Probando colores y fuentes */
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: 25px;
+}

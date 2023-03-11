@@ -1,0 +1,64 @@
+/* Probando colores y fuentes */
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    font-size: 25px;
+}
+
+.header {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: lightslategray;
+}
+
+#first {
+    color: mediumpurple;
+    font-size: 20px;
+}
+
+p#first {
+    color: mediumseagreen;
+    font-size: 20px;
+}
+
+#second {
+    color: salmon;
+    font-size: 20px;
+}
+
+*.warning {
+    color: royalblue;
+}
+
+/* 
+
+Al inicio de nuestro documento de estilos:
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 15px;
+}
+
+*/
+
+/* .author {
+    text-decoration: underline;
+
+}
+
+.date {
+    text-decoration: underline;
+}
+
+.location {
+    text-decoration: underline;
+} */
+
+.author, .date, .location, h1, #second {
+    text-decoration: underline;
+}
