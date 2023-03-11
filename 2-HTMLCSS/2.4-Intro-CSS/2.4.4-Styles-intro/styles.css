@@ -1,0 +1,44 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.colors {
+    color: brown;
+    font-size: 30px;
+}
+
+.hexcolor {
+    color: #4357AD;
+}
+
+.rgbcolor {
+    color: rgb(100, 0, 200);
+}
+
+.rgbacolor {
+    
+}
+
+.hexcolor, .rgbcolor, .rgbacolor {
+    font-size: 20px;
+}
+
+.background-color {
+    background-color: #DDE8B9;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.background-img-external {
+    color: azure;
+    font-weight: bolder;
+    background-image: url("https://imgs.search.brave.com/lF3URJCGE7LsQfKGLleDk4MoMSJ1k7gOssPCTj0wFp4/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93d3cu/cGl4ZWxzdGFsay5u/ZXQvd3AtY29udGVu/dC91cGxvYWRzLzIw/MTYvMTIvRnJlZS1C/ZWF1dGlmdWwtTGFu/ZHNjYXBlLUltYWdl/LmpwZw");
+    background-position: left center;
+}
+
+.background-img-internal {
+    color: azure;
+    font-weight: bolder;
+    background-image: url("./downloads/unnamed.jpg");
+    background-position: left center;
+}
