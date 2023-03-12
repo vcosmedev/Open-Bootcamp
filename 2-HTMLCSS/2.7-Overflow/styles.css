@@ -1,0 +1,41 @@
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-hidden{
+    margin: 10px 20px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.container-scroll{
+    margin: 10px 20px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+    /* Tener overflow solamente para el eje de la X o solamente para el eje de la Y, es posible */
+}
+
+.container-visible{
+    margin: 10px 20px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+
+.container-auto{
+    margin: 10px 20px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
