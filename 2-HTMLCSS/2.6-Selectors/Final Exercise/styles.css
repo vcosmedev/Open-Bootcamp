@@ -1,0 +1,21 @@
+button {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border: green;
+    border-radius: 10px;
+}
+
+button::before{
+    content: "Pasa por encima";
+}
+
+button:hover {
+    opacity: 0.6;
+    color: white;
+    background-color:green;
+}
+
+button::before{
+    content: "¡Hecho!";
+}
