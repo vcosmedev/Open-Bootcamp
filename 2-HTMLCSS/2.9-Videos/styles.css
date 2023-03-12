@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+
+.video {
+    width: 100vw;
+    /* vw: viewport width */
+    height: 100vh;
+    /* vh: viewport height */
+    object-fit: cover;
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
