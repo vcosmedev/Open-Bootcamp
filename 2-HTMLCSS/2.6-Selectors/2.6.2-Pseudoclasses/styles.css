@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+
+.hover:hover {
+    background-color: burlywood;
+}
+
+.list {
+    padding: 15px;
+    width: 270px;
+    background-color: aquamarine;
+}
+
+/* Afecta a todos los primeros 'p' que tenga delante una clase list */
+.list p:first-child {
+    color: deeppink;
+}
+
+/* Afecta a todos los primeros 'p'
+p:first-child {
+    color: deeppink;
+} */
+
+/* Referencia a todos los enlaces del documento */
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+a:hover {
+    color: darkturquoise;
+}
+
+a:active {
+    color: lightgreen;
+}

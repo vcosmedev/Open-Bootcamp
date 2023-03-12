@@ -1,0 +1,33 @@
+/* 
+
+!important inline-styles id  class tag
+                        (1,   0,   0)
+                        (0,   1,   0)
+                        (0,   0,   1)
+                        (0,   0,   0)
+
+*/
+
+
+h1#h1-id.h1-class{
+    color: darksalmon;
+}
+
+
+.h1-class {
+    color: yellow !important; /*Evitar utilización de !important*/
+}
+
+h1 {
+    color: blue !important; /*Evitar utilización de !important*/
+}
+/* Se aplicaría al h1 el color verde por el principio de hoja de estilos en cascada,
+se aplica el último estilo que se ha indicado si existen dos simultáneos.
+El primero ha sido sobreescrito en este caso. */
+h1 {
+    color: green;
+}
+
+p{
+    color: red;
+}

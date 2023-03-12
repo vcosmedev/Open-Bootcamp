@@ -1,0 +1,48 @@
+.container {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+span.quote {
+    font-style: italic;
+
+}
+
+span.quote::before {
+    content: '<<';
+    font-size: xx-small;
+}
+
+span.quote::after{
+    content: '>>';
+    font-size: xx-small;
+}
+
+.book {
+    background-color: bisque;
+    padding: 15px;
+    width: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book p::first-letter {
+    font-size: xx-large;
+}
+
+.book p::first-line{
+    color:blueviolet;
+}
+
+.book p::selection {
+    background-color: darkorange;
+    color: lime;
+}
+
+/* .list ul li::marker{
+    color:lightsalmon;
+} */
+
+.list li::marker{
+    color:lightsalmon;
+}
