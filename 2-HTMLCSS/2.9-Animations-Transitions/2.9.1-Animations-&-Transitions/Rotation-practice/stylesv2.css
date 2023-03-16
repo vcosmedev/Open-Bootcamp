@@ -15,8 +15,11 @@
 
 .father:hover .child {
     /* transform: translateX(300%); */
-    animation: rotationkeyframev2 3s forwards;
-}
+    animation: rotationkeyframev2 3s 3 forwards;
+    /* animation: rotationkeyframev2 3s infinite forwards;
+    animation: rotationkeyframev2 3s infinite forwards alternate;
+    animation: rotationkeyframev2 3s infinite forwards alternate-reverse;*/
+} 
 
 @keyframes rotationkeyframev2 {
     0% {
