@@ -1,0 +1,46 @@
+.father {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.child {
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+    transition: transform 1s ease-in 1s; /* En este caso solo aplica a la porpiedad 'transform' */
+}
+
+.father:hover .child {
+    animation: rotationkeyframe 3s forwards;
+    position: relative;
+}
+
+@keyframes rotationkeyframe {
+    0% {
+        background-color: aqua;
+        left: 0px;
+        top: 0px;    
+    }
+    25% {
+        background-color: yellowgreen;
+        left: 300px;
+        top: 0px;
+    }
+    50% {
+        background-color: brown;
+        left: 300px;
+        top: 300px;
+    }
+    75% {
+        background-color: violet;
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        background-color: coral;
+        left: 0px;
+        top: 0px;
+    }
+}
+
