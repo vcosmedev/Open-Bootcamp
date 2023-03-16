@@ -1,0 +1,43 @@
+.father {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.child {
+    width: 25%;
+    height: 25%;
+    background-color: aqua;
+    /* transition: all 1s; all -> aplicaría para todas las propiedades: que aparezca el cuadrado, que se vaya hacia la derecha (todas las que tengamos).   */
+    /* transition: transform 1s ease-in 1s; En este caso solo aplica a la porpiedad 'transform' */
+    /* transition: transform 1s cubic-bezier(0.77, 0.22, 0.5, 1.44) Transición customizada a través de las Dev Tools */
+}
+
+.father:hover .child {
+    /* transform: translateX(300%); */
+    animation: rotationkeyframev2 3s forwards;
+}
+
+@keyframes rotationkeyframev2 {
+    0% {
+        background-color: aqua;
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        background-color: yellowgreen;
+        transform: translateX(300%) translateY(0%);
+    }
+    50% {
+        background-color: violet;
+        transform: translateX(300%) translateY(300%);
+    }
+    75% {
+        background-color: yellow;
+        transform: translateX(0%) translateY(300%);
+    }
+    100% {
+        background-color: coral;
+        transform: translateX(0%) translateY(0%);
+    }
+}
+
