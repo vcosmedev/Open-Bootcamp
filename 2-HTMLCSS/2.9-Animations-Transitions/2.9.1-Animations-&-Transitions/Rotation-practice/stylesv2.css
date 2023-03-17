@@ -19,6 +19,7 @@
     /* animation: rotationkeyframev2 3s infinite forwards;
     animation: rotationkeyframev2 3s infinite forwards alternate;
     animation: rotationkeyframev2 3s infinite forwards alternate-reverse;*/
+    /* animation-play-state: paused; Al hacer :hover, la animación se detiene */
 } 
 
 @keyframes rotationkeyframev2 {
