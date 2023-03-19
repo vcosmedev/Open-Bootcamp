@@ -1,0 +1,41 @@
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.container {
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+
+    /* flex-direction: row;     // Posicionamiento eje horizontal o principal -> Por default */
+    /* flex-direction: column; // Posicionamiento eje verticual o secundario */
+    /* align-items: center; */
+
+    /* Eje principal */
+    justify-content: space-around;
+
+    /* Eje secundario */
+    /* align-items: baseline; */
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: stretch; // Por default, se tiene este */
+
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap; /* Preservar el tamaño de los elemenos */
+
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+    
+}
+
+.item2 {
+    /* Para que algún item tenga una disposición diferente:
+    align-self: ;
+    justify-self ;  */
+    align-self: stretch;
+}
+
