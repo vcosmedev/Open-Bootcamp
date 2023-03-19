@@ -1,0 +1,84 @@
+h1 {
+    color: red;
+    font-size: 4∫∫∫rem;
+}
+
+p {
+    color: yellowgreen;
+    font-size: 2rem;
+}
+
+/* 
+@media -> por default, all (afecta a todos los dispositivos). Devices types: 
+- screen: 'pintar' una página en una pantalla
+- print: acceder dispositivo impreso
+- speech
+*/
+
+@media print {
+    h1 {
+        color: blue;
+    }
+}
+
+/* @media screen and (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+/* @media all and (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+} */
+
+/* Este ejemplo es el mismo que el anterior, afecta tanto a screen, print & speech */
+/* @media (max-width: 576) {
+    h1 {
+        color: blue;
+    }
+} */
+
+
+@media (min-width: 576px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* Aunque no es muy utilizado, también puede ser usado mind-height */
+@media (min-height: 300px) {
+    p {
+        color: cyan;
+    }
+}
+
+/* Concatenar estilos responsividad en media queries:
+@media (min-height: 300px), (min-width: 1100px) {
+    p {
+        color: cyan;
+    }
+} */
+
+
+/* También se puede establecer que se comporte diferente según la disposición (horinontal o vertical)
+- landscape (horizontal)
+- portrait (vertical) */
+/* @media (orientation: landscape) {
+    p {
+        color: brown;
+    }
+} */
+
+@media (orientation: landscape) and (min-height: 400px) {
+    p {
+        color: brown;
+    }
+}
