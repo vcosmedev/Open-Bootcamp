@@ -1,0 +1,31 @@
+.row div {
+    margin: 0.25rem;
+}
+
+.col {
+    background-color: seagreen;
+    color: whitesmoke;
+}
+
+.col-sm {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.col-md {
+    background-color: yellow;
+}
+
+.col-lg {
+    background-color: yellowgreen;
+}
+
+.col-xl {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+
+.col-xxl {
+    background-color: palevioletred;
+    color: whitesmoke;
+}
