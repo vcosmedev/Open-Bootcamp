@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap: Typography</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h1>Este es un h1</h1>
+      <h2>Este es un h2</h2>
+      <h3>Este es un h3</h3>
+      <h4>Este es un h4</h4>
+      <h5>Este es un h5</h5>
+      <h6>Este es un h6</h6>
+
+      <p class="h1">
+        Este es un 'p' al que se le ha asignado una
+        <span class="text-muted">clase h1</span>
+      </p>
+      <p class="h2">Este es un 'p' al que se le ha asignado una clase h2</p>
+      <p class="h3">Este es un 'p' al que se le ha asignado una clase h3</p>
+      <p class="h4">Este es un 'p' al que se le ha asignado una clase h4</p>
+      <p class="h5">Este es un 'p' al que se le ha asignado una clase h5</p>
+      <p class="h6">Este es un 'p' al que se le ha asignado una clase h6</p>
+
+      <h1 class="display-1">Display 1</h1>
+      <h2 class="display-2">Display 2</h2>
+      <h3 class="display-3">Display 3</h3>
+      <h4 class="display-4">Display 4</h4>
+      <h5 class="display-5">Display 5</h5>
+      <h6 class="display-6">Display 6</h6>
+
+      <p class="lead mt-3 mb-0">Lorem ipsum</p>
+      <p>
+        <del> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</del>
+        Excepturi esse <small>nostrum</small> quidem rem et ut nihil
+        <strong>aspernatur</strong> sequi hic odit <em>exercitationem</em>,
+        inventore quam magnam vel omnis iure quasi tenetur.
+        <abbr class="initialism" title="Abcdefg hijklmnño pqrsuvwxyz">Abc</abbr
+        >, abecedario. <blockquote class="blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit.</blockquote> <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+          </figcaption>Nulla neque nihil tempore debitis minus facere consequuntur magni, animi
+        ipsa! Nihil quae fugiat quas soluta aperiam at necessitatibus excepturi
+        nulla illo!
+      </p>
+
+      <p>Este es un texto a la izquierda, por default.</p>
+      <p class="text-center">Este es un texto centrado.</p>
+      <p class="text-start">Este es un texto con la clase text-start.</p>
+      <p class="text-end">Este es un texto con la clase text-end.</p>
+      <p class="text-end text-sm-center">Este es un texto con la clase text-end y sm-center.</p>
+      <p class="text-end text-sm-center text-md-start">Este es un texto con la clase text-end, sm-center y md-start.</p>
+
+      <p>Este es un párrafo que va a contener una lista sin estilos:
+        <ul class="list-unstyled">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+      </p>
+
+      <p>Este es un párrafo que va a contener una lista sin estilos e inline:
+        <ul class="list-inline">
+            <li class="list-inline-item">Elemento 1</li>
+            <li class="list-inline-item">Elemento 2</li>
+            <li class="list-inline-item">Elemento 3</li>
+        </ul>
+      </p>
+
+      <!-- Tipografía en Bootstrap es responsive -->
+
+      <!-- Text wrapping and overflow  -->
+      <p class="w-25 text-nowrap bg-info">Este es un texto muy largo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint dignissimos architecto eos autem id quae quidem repudiandae quaerat beatae quisquam quam nihil unde eveniet incidunt optio, quas alias iusto!</p>
+
+      <!-- Word break -->
+      <p class="text-break">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+        
+      <!-- Text trasnform -->
+      <p class="text-capitalize">Texto escrito en minúsculas, clase capitalize</p>
+      <p class="text-lowercase">Texto escrito en MAYÚSCULAS, clase lowercase</p>
+      <p class="text-uppercase">Texto escrito Capitalizado, clase uppercase</p>
+      
+      <!-- Font size -->
+      <p class="fs-1">fs-1</p>
+      <p class="fs-2">fs-2</p>
+      <p class="fs-3">fs-3</p>
+      <p class="fs-4">fs-4</p>
+      <p class="fs-5">fs-5</p>
+      <p class="fs-6">fs-6</p>
+      
+      <!-- Font weight and italics -->
+      <p class="fw-bold">Bold text.</p>
+      <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+      <p class="fw-semibold">Semibold weight text.</p>
+      <p class="fw-normal">Normal weight text.</p>
+      <p class="fw-light">Light weight text.</p>
+      <p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+      <p class="fst-italic">Italic text.</p>
+      <p class="fst-normal">Text with normal font style</p>
+    
+      <!-- Line height -->
+      <p class="lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo doloribus repudiandae dolor dicta necessitatibus ad perspiciatis consequatur alias, quo obcaecati ab accusantium aut minus cumque eum modi a vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima, reiciendis tempore dolore dolores sint iusto ut nostrum nemo in tenetur nam! Autem id repudiandae quibusdam qui maiores, animi at?</p>
+      <p class="lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo doloribus repudiandae dolor dicta necessitatibus ad perspiciatis consequatur alias, quo obcaecati ab accusantium aut minus cumque eum modi a vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima, reiciendis tempore dolore dolores sint iusto ut nostrum nemo in tenetur nam! Autem id repudiandae quibusdam qui maiores, animi at?</p>
+      <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo doloribus repudiandae dolor dicta necessitatibus ad perspiciatis consequatur alias, quo obcaecati ab accusantium aut minus cumque eum modi a vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima, reiciendis tempore dolore dolores sint iusto ut nostrum nemo in tenetur nam! Autem id repudiandae quibusdam qui maiores, animi at?</p>
+      <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo doloribus repudiandae dolor dicta necessitatibus ad perspiciatis consequatur alias, quo obcaecati ab accusantium aut minus cumque eum modi a vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima, reiciendis tempore dolore dolores sint iusto ut nostrum nemo in tenetur nam! Autem id repudiandae quibusdam qui maiores, animi at?</p>
+
+      <!-- Monospace -->
+      <p class="font-monospace">This is in monospace</p>
+
+      <!-- Reset color: mismo color fuente  -->
+      <!-- Text decoration: underline, line through, none  -->
+      <p class="text-muted">
+        Normal link <a href="#" class="text-reset">reset link</a>.
+      </p><p class="text-muted">
+        Link without color text with a <a href="#" class="text-reset">reset link</a>.
+      </p><p class="text-muted">
+        Link without underline <a href="#" class="text-reset">reset link</a>.
+      </p>
+
+
+
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
