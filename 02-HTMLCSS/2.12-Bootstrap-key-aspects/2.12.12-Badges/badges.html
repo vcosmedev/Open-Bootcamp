@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap: Badges</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h2>This is the title <span class="badge bg-secondary">New!</span></h2>
+      <div class="row d-block">
+        <button class="btn btn-primary w-auto">
+          Notifications
+          <span class="badge bg-secondary">6</span>
+        </button>
+      </div>
+      <button class="mt-4 btn btn-primary position-relative">
+        Inbox
+        <span
+          class="badge position-absolute bg-danger top-0 start-100 translate-middle rounded-pill"
+          >99+</span
+        >
+      </button>
+      <!-- Para posicionar un elemento de forma absoluta, es necesario posicionar el padre de forma relativa -->
+      <hr />
+      <span class="badge text-bg-primary">Primary</span>
+      <span class="badge text-bg-primary rounded-pill">Primary</span>
+      <span class="badge text-bg-secondary">Secondary</span>
+      <span class="badge text-bg-secondary rounded-pill">Secondary</span>
+      <span class="badge text-bg-success">Success</span>
+      <span class="badge text-bg-success rounded-pill">Success</span>
+      <span class="badge text-bg-danger">Danger</span>
+      <span class="badge text-bg-danger rounded-pill">Danger</span>
+      <span class="badge text-bg-warning">Warning</span>
+      <span class="badge text-bg-warning rounded-pill">Warning</span>
+      <span class="badge text-bg-info">Info</span>
+      <span class="badge text-bg-info rounded-pill">Info</span>
+      <span class="badge text-bg-dark">Dark</span>
+      <span class="badge text-bg-dark rounded-pill">Dark</span>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
