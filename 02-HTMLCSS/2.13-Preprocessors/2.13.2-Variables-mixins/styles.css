@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: azure;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  width: 50rem;
+  color: brown;
+  text-transform: uppercase;
+  background-color: cadetblue;
+}
+
+p {
+  color: brown;
+  width: 50rem;
+  color: brown;
+  text-transform: uppercase;
+  background-color: cadetblue;
+}
+
+.list {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.list ul {
+  margin: 0 0.5rem;
+}
+.list ul li {
+  list-style: none;
+}
+.list ul li:hover {
+  color: rebeccapurple;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
