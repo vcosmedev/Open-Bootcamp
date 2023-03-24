@@ -1,0 +1,94 @@
+// Import here components
+@import "components";
+
+// variables
+$text-color: brown;
+
+// mixin: way to reuse some parts of code that are the same
+@mixin text-format {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: cadetblue;
+}
+// mixins can accept variables
+// @mixin text-format($bg-color){
+//     width: 50rem;
+//     color: $text-color;
+//     text-transform: uppercase;
+//     background-color: cadetblue;
+// }
+// h1 {
+//     margin: 0;
+//     @include text-format(#f1f1f1);
+// }
+
+// p {
+//     color: $text-color;
+//     @include text-format(#f1f1f1);
+// }
+
+// mixins with default values for variables:
+// @mixin text-format($bg-color: #f1f1f1){
+//     width: 50rem;
+//     color: $text-color;
+//     text-transform: uppercase;
+//     background-color: cadetblue;
+// }
+// h1 {
+//     margin: 0;
+//     @include text-format(); -> No pasando ningún parámetro, tomará por defecto el valor establecido al definir el mixin
+// }
+
+// p {
+//     color: $text-color;
+//     @include text-format(#d2d2d2);
+// }
+
+// Styles
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: azure;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+    @include text-format;
+}
+
+p {
+    color: $text-color;
+    @include text-format;
+}
+
+// div.list ul li {
+//     list-style: none;
+//     width: 10rem;
+//     background-color: aquamarine;
+//     padding: 0.5rem;
+// }
+
+// O anidar propiedades
+.list {
+    width: 10rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    ul {
+        margin: 0 0.5rem;
+        li {
+            list-style: none;
+
+            &:hover {
+                color: rebeccapurple;
+                cursor: pointer;
+            }
+        }
+    }
+}
