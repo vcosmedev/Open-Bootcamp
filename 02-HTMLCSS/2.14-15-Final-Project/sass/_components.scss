@@ -1,0 +1,47 @@
+@use "./variables";
+@use "./mixins";
+
+.btn-main {
+    @include mixins.btn-base();
+    background-color: variables.$main-color;
+    border: solid 1px variables.$main-color;
+    color: white;
+
+
+    &:hover {
+        color: variables.$main-color;
+        background-color: white;
+    }
+
+    &-smaller {
+        // Extend btn-main properties
+        @extend .btn-main;
+        @include mixins.btn-sm-modify();
+    }
+}
+
+.btn-sec {
+    @include mixins.btn-base();
+    color: #000000;
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+      color: #888;  
+    }
+
+    &-smaller {
+        @extend .btn-sec;
+        @include mixins.btn-sm-modify();
+    }
+
+}
+
+.main-menu {
+    // Nesting
+    li { 
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+    }
+}

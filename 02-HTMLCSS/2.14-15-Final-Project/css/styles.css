@@ -1,0 +1,38 @@
+.btn-main, .btn-main-smaller {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0075FF;
+  border: solid 1px #0075FF;
+  color: white;
+}
+.btn-main:hover, .btn-main-smaller:hover {
+  color: #0075FF;
+  background-color: white;
+}
+.btn-main-smaller {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-smaller {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-smaller:hover {
+  color: #888;
+}
+.btn-sec-smaller {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 0.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
