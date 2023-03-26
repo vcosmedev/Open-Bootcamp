@@ -35,4 +35,14 @@
   font-size: 0.5rem;
 }
 
+.icon-sm {
+  font-size: 0.75rem;
+}
+.icon-sm i {
+  color: #0075FF;
+  padding: 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
 /*# sourceMappingURL=styles.css.map */
