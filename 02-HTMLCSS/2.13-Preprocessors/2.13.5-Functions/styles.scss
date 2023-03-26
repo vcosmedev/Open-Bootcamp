@@ -1,0 +1,26 @@
+// Functions
+// Built-In-Modules https://sass-lang.com/documentation/modules
+// Sass provides many built-in modules which contain useful functions (and the occasional mixin). 
+// These modules can be loaded with the @use rule like any user-defined stylesheet, and their 
+// functions can be called like any other module member. All built-in module URLs begin 
+// with sass: to indicate that they're part of Sass itself.
+
+// Componentes
+@use "./sass/components";
+// namespace 
+// $color -> comp.$color
+
+// Mixins
+@use "./sass/mixins";
+// $color -> $color
+
+// Estilos
+@use "./sass/styles";
+
+// Paginas
+// página principal
+// página de contacto
+// página de aviso legal
+
+// Otros
+@use "./sass/builtin";
