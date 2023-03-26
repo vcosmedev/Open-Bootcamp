@@ -1,0 +1,14 @@
+// List all files to use (@use + fileLocation), components (@use + fileLocation)
+// and pages (@use + fileLocation). Example:
+
+@use './base';
+@use './mixins';
+@use './variables';
+
+// Components
+@use './components/buttonExample';
+
+// Pages
+@use './home/nav';
+@use './home/footer';
+@use './home/firstSection';
