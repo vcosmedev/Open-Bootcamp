@@ -1,3 +1,5 @@
+@use "./variables";
+
 body {
     padding: 0;
     margin: 0;
@@ -10,4 +12,47 @@ body {
     width: 100%;
     height: 3rem;
     border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+    max-width: 7rem;
+    cursor: pointer;
+}
+
+.sec-home {
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    // Revisar centrado, margin-left es un 'parche'
+    margin-left: 15rem;
+    padding: 5rem;
+    align-items: center;
+
+    .home-cta {
+        flex: 1;
+        .cta-text {
+            color: variables.$main-color;
+        }
+        span {
+            font-weight: 500;
+        }
+        .home-title {
+            margin-top: 0.5rem;
+            width: 20rem;
+            font-size: 42px;
+            font-weight: 500;
+            line-height: 1.15;
+        }
+    }
+    input {
+        box-shadow: none !important;
+    }
+    .home-img {
+        img {
+            height: 434px;
+            width: 100%;
+            min-width: 400px;
+        }
+    }
 }
