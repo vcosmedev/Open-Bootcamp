@@ -151,51 +151,54 @@ body {
   min-width: 400px;
 }
 
-.sec-features {
+.sec-features, .sec-benefits .intro {
   width: 100%;
   max-width: 992px;
   margin: auto;
   padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.sec-features .intro {
+.sec-features .intro, .sec-benefits .intro .intro {
   text-align: center;
 }
-.sec-features .intro h3 {
+.sec-features .intro h3, .sec-benefits .intro .intro h3 {
   font-size: 2rem;
 }
-.sec-features .intro p {
+.sec-features .intro p, .sec-benefits .intro .intro p {
   font-size: 0.8rem;
   color: #888;
 }
-.sec-features .features {
+.sec-features .features, .sec-benefits .intro .features {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sec-features .features .text {
+.sec-features .features .text, .sec-benefits .intro .features .text {
   padding: 2rem 0;
   max-width: 40%;
 }
-.sec-features .features .text .feature {
+.sec-features .features .text .feature, .sec-benefits .intro .features .text .feature {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-.sec-features .features .text .feature .description {
+.sec-features .features .text .feature .description, .sec-benefits .intro .features .text .feature .description {
   margin-left: 1rem;
 }
-.sec-features .features .text .feature .description .title-description {
+.sec-features .features .text .feature .description .title-description, .sec-benefits .intro .features .text .feature .description .title-description {
   font-size: 1rem;
 }
-.sec-features .features .text .feature .description .text-description {
+.sec-features .features .text .feature .description .text-description, .sec-benefits .intro .features .text .feature .description .text-description {
   font-size: 0.7rem;
   color: #888;
   font-weight: 300;
 }
-.sec-features .features .img-section {
+.sec-features .features .img-section, .sec-benefits .intro .features .img-section {
   margin-left: 1rem;
 }
-.sec-features .features .img-section img {
+.sec-features .features .img-section img, .sec-benefits .intro .features .img-section img {
   width: 100%;
   max-width: 30rem;
 }

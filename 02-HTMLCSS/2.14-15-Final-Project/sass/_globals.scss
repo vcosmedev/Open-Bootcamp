@@ -57,17 +57,20 @@ body {
 
 .sec-features {
     @include mixins.section-display();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .intro {
         text-align: center;
 
-    h3 {
-        font-size: 2rem;
-    }
-    p {
-        font-size: 0.8rem;
-        color: #888;
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 0.8rem;
+            color: #888;
 
-    }
+        }
     }
     .features {
         display: flex;
@@ -101,5 +104,11 @@ body {
                 max-width: 30rem;
             }
         }
+    }
+}
+
+.sec-benefits {
+    .intro {
+        @extend .sec-features, .intro;
     }
 }
