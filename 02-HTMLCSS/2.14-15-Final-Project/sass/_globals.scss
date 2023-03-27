@@ -1,4 +1,6 @@
 @use "./variables";
+@use "./mixins";
+
 
 body {
     padding: 0;
@@ -21,12 +23,9 @@ body {
 
 .sec-home {
     display: flex;
-    width: 100%;
-    max-width: 768px;
-    margin: auto;
-    padding: 5rem;
     align-items: center;
     justify-content: center;
+    @include mixins.section-display();
 
     .home-cta {
         flex: 1;
@@ -52,6 +51,55 @@ body {
             height: 434px;
             width: 100%;
             min-width: 400px;
+        }
+    }
+}
+
+.sec-features {
+    @include mixins.section-display();
+    .intro {
+        text-align: center;
+
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.8rem;
+        color: #888;
+
+    }
+    }
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // gap: 1rem;
+        .text {
+            padding: 2rem 0;
+            max-width: 40%;
+            .feature {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                .description {
+                    margin-left: 1rem;
+                    .title-description {
+                        font-size: 1rem;
+                    }
+                    .text-description {
+                        font-size: 0.7rem;
+                        color: #888;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        .img-section {
+            margin-left: 1rem;
+            img {
+                width: 100%;
+                max-width: 30rem;
+            }
         }
     }
 }
