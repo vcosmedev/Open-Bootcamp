@@ -24,10 +24,9 @@ body {
     width: 100%;
     max-width: 768px;
     margin: auto;
-    // Revisar centrado, margin-left es un 'parche'
-    margin-left: 15rem;
     padding: 5rem;
     align-items: center;
+    justify-content: center;
 
     .home-cta {
         flex: 1;

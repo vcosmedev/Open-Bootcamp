@@ -122,9 +122,9 @@ body {
   width: 100%;
   max-width: 768px;
   margin: auto;
-  margin-left: 15rem;
   padding: 5rem;
   align-items: center;
+  justify-content: center;
 }
 .sec-home .home-cta {
   flex: 1;
