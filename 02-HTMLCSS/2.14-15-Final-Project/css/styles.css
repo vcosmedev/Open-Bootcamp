@@ -40,6 +40,7 @@
 .main-menu li a {
   color: #000000;
   text-decoration: none;
+  margin: 0 0.75rem;
 }
 .main-menu li a:hover {
   text-decoration: underline;
