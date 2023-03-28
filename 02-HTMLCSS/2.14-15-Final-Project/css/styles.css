@@ -55,29 +55,33 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
 }
 
-.feature {
+.benefit {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.feature .icon {
+.benefit i {
   color: #0075FF;
-  font-size: 10rem;
-  margin-bottom: -10px;
+  font-size: 5rem;
+  margin-bottom: 5px;
 }
-.feature .description .title {
-  font-size: 2rem;
+.benefit .description .title {
+  font-size: 1.5rem;
   text-align: center;
 }
-.feature .description .text {
+.benefit .description .text {
   color: #888;
-  font-weight: 600;
+  font-size: 0.7rem;
+  font-weight: 500;
   text-align: center;
 }
-.feature .cta {
+.benefit .cta {
   color: #0075FF;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 500;
   margin-top: 2.5rem;
+  text-decoration: none;
+  line-height: 1.25rem;
 }
 
 .icon-desc {
@@ -201,6 +205,14 @@ body {
 .sec-features .features .img-section img, .sec-benefits .intro .features .img-section img {
   width: 100%;
   max-width: 30rem;
+}
+
+.sec-benefits .intro p {
+  color: #888;
+}
+.sec-benefits .benefits-cards {
+  width: 100%;
+  padding: 0 2rem 2rem 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

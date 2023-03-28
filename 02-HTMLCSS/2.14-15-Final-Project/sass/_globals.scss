@@ -110,5 +110,12 @@ body {
 .sec-benefits {
     .intro {
         @extend .sec-features, .intro;
+        p {
+            color: #888;
+        }
+    }
+    .benefits-cards {
+        width: 100%;
+        padding: 0 2rem 2rem 2rem;
     }
 }

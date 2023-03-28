@@ -67,31 +67,35 @@
     }
 }
 
-.feature {
+.benefit {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .icon {
+    i {
         color: variables.$main-color;
-        font-size: 10rem;
-        margin-bottom: -10px;
+        font-size: 5rem;
+        margin-bottom: 5px;
     }
     .description {
         .title {
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
         }
         .text {
             color: #888;
-            font-weight: 600;
+            font-size: 0.7rem;
+            font-weight: 500;
             text-align: center;
         }
     }
     .cta {
         color: variables.$main-color;
-        font-weight: 600;
+        font-size: 0.8rem;
+        font-weight: 500;
         margin-top: 2.5rem;
+        text-decoration: none;
+        line-height: 1.25rem;
     }
 }
 
