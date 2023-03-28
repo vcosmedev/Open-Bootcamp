@@ -119,3 +119,24 @@ body {
         padding: 0 2rem 2rem 2rem;
     }
 }
+
+.sec-kpis {
+    background-color: variables.$main-color;
+    width: 100%;
+    color: white;
+    padding: 4rem;
+    .kpi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .number {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        .desc {
+            font-size: 0.8rem;
+            color: #ffffffaa;
+        }
+
+    }
+}
