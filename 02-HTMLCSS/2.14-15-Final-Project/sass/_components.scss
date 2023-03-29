@@ -105,15 +105,15 @@
     align-items: center;
     justify-content: center;
     
-    .icon {
+    i {
         color: variables.$main-color;
-        font-size: 10rem;
+        font-size: 5rem;
         padding: 0;
         margin-bottom: -10px;
     }
-    .create {
+    .title {
         margin-top: -2px;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 600;
     }
 }
