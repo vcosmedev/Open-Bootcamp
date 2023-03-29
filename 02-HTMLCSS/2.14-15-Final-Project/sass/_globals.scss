@@ -41,6 +41,9 @@ body {
             font-weight: 500;
             line-height: 1.15;
         }
+        .home-description {
+            width: 300px;
+        }
     }
     input {
         box-shadow: none !important;
@@ -178,4 +181,50 @@ body {
             font-size: 1.1rem;
         }
     }   
+}
+
+@media (max-width: 768px) {
+    .sec-features {
+        .intro {
+            h3 {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .sec-benefits {
+        .intro {
+            text-align: center;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+    }
+    
+    .sec-onboarding {
+        .intro {
+            text-align: center;
+        }
+        h3 {
+            font-size: 2rem;
+        }
+        .steps {
+            flex-direction: column;
+            .icon-desc {
+                .tile {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .sec-footer-cta {
+        background-image: none;
+        .footer-cta {
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
