@@ -1,0 +1,17 @@
+{
+  "name": "final-exercise",
+  "version": "1.0.0",
+  "description": "First Exercise, NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firstproject",
+    "helloworld",
+    "nodejs"
+  ],
+  "author": "Victor C.",
+  "license": "ISC"
+}
