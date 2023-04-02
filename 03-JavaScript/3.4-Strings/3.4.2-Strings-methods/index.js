@@ -1,4 +1,4 @@
-// < JavaScript Array Methods with strings >
+// PART I < JavaScript Array Methods with strings >
 //  Cómo obtener la longitud de un string
 
 let str = "Hola soy un string";
