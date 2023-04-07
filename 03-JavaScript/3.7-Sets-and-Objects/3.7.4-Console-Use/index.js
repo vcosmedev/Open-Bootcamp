@@ -7,6 +7,7 @@
 
 // Para guardar el input que ha ingresado el usuario en una variable:
 // const age = prompt("How old are you?");
+// undefined
 // age = '30'; -> String
 
 // Si se requiere edad en formato number:
