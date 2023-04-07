@@ -38,7 +38,7 @@ console.log(date2.getTime() === date5.getTime()); // EO: true
 
 // OBTENER DÍA, MES Y AÑO DE UNA FECHA
 // Obtener día .getDate():
-console.log(date2.getDate()); // EO: 1
+console.log(date2.getDay()); // EO: 5 -> Friday
 // Obtener mes (OJO, recuerda que los meses empiezan en 0, hay que sumar uno, +1) -> .getMonth():
 console.log(date2.getMonth() + 1); // EO: 12
 // Obtener año, getFullYear():
