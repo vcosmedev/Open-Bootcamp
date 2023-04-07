@@ -20,11 +20,11 @@ const myPromise = new Promise((resolve, reject) => {
 
 // ¿CÓMO CONSUMIR PROMESAS?
 // 1- .then()
-// 2-
+// 2- .catch()
 
-// myPromise
-//     .then(() => console.log("Se ha ejecutado de forma correcta"));
-//     .catch(() => console.log("ERROR")); // Conocer y gestionar los errores que se han podido dar en nuestra promesa
+myPromise
+  .then(() => console.log("Se ha ejecutado de forma correcta"))
+  .catch(() => console.log("ERROR")); // Conocer y gestionar los errores que se han podido dar en nuestra promesa
 
 // Ejemplo:
 
@@ -37,7 +37,7 @@ const myNewPromise = new Promise((resolve, reject) => {
   }
 });
 
-// myNewPromise
-//     .then(() => console.log("SUCCESS"));
-//     .catch(() => console.log("ERROR"));
-//     .finally(() => console.log("ALWAYS EXECUTE MYSELF"));
+myNewPromise
+  .then(() => console.log("SUCCESS"))
+  .catch(() => console.log("ERROR"))
+  .finally(() => console.log("ALWAYS EXECUTE MYSELF"));
