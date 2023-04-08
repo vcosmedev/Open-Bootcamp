@@ -25,7 +25,7 @@ class Person {
   }
 
 // Crear objetos de tipo persona:
-const person = new Person("Gorka", 70);
+const person = new Person("Gorka", 70, );
 console.log(person);
 // Acceder a atritbutos:
 console.log(person.name);
