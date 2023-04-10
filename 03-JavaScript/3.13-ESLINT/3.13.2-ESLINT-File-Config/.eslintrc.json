@@ -1,0 +1,22 @@
+// Este es un archivo de configuración de reglas ESLint
+// En la doc, 'Configuring>configuration-files'
+
+// {
+//     "env": {
+//         "browser": true
+//     },
+//     "rules": {
+//         // Override our default settings just for this directory
+//         "eqeqeq": "warn",
+//         "strict": "off",
+//         "quotes": ["error", "double"],
+//         "quotes": ["warn", "double"],
+//         "semi": ["error", "never"],
+//         "no-dupe-keys": "error"
+//         ...
+
+//     }
+// }
+
+// ERROR LENS EXTENSION
+// A la altura de la línea de código te indica el error para corregirlo de forma rápdia
