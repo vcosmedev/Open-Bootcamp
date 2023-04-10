@@ -18,10 +18,10 @@ class Student {
   }
 }
 
-const newStudent = new Student("Víctor", "JavaScript");
+const newStudent = new Student("Víctor", "HTML, CSS, JavaScript");
 console.log(newStudent);
 newStudent.getData();
 
-const newStudent2 = new Student("Ander", "JavaScript");
+const newStudent2 = new Student("Ander", "HTML, CSS, JavaScript");
 console.log(newStudent2);
 newStudent2.getData();
