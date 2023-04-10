@@ -15,7 +15,7 @@ const doubleAge = getDoubleAge(person.age);
 console.log(doubleAge);
 // Breakpoint: an intentional stopping or pausing place in a program, put in place for debugging purposes.
 
-// Ejemplo con bucle for:
+// EJEMPLO BUCLE 'for':
 function getArr(age) {
   let numArr = [];
 
