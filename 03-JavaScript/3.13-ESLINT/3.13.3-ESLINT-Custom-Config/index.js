@@ -1,6 +1,6 @@
 // npm init -y
 
-// First option: npm install eslint --save-dev
+// First option: npm install eslint --save-dev // npm install eslint --save-dev
 // Second option: npm i -D eslint -> 'D' viene de Developer, son dependencias de desarrollo, solo estarán en el proyecto en el que se está trabajando
 
 // npm init @eslint/config -> Nos pregunta qué tipo de configuración realizar
@@ -9,7 +9,7 @@
 //    > Which framework -> None
 //    > Use Typescript? -> No
 //    > Where does your code run? -> node
-//    > Define a style for your project= -> prompt
+//    > Define a style for your project -> anser questions about ... -> prompt
 //    > Format to config to be in -> JSON
 //    > Indentation -> spaces, 4
 //    > Quotes -> Double
@@ -40,3 +40,4 @@ const newString = "Esto es un string con single quotes"; // eslint-disable-line
 // Crear un script que analice si existen errores o warnings en los archivos de un proyecto -> package.json ->> "lint": "eslint ."
 // npm run lint
 // --fix -> arreglar de forma automática ->> crear script para que se fixee solo ->> package.json > "lint-fix": "eslint --fix ."
+// npm run lint-fix
