@@ -12,3 +12,11 @@
 .paragraph.dragging {
     opacity: 0.3;
 }
+
+.ghostImage {
+    width: 150px;
+    height: 100px;
+    background-color: azure;
+    position: absolute;
+    left: -100vw;
+}
