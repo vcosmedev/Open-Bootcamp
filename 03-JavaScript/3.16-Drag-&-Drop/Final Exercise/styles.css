@@ -1,0 +1,33 @@
+.section {
+    background-color: plum;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.paragraph {
+    background-color: azure;
+    padding: 1rem;
+}
+
+.paragraph.dragging {
+    opacity: 0.3;
+}
+
+.ghostImage {
+    width: 150px;
+    height: 100px;
+    background-color: azure;
+    position: absolute;
+    left: -100vw;
+}
+
+.bin {
+    display: flex;
+    justify-content: center;
+}
+
+.binImg {
+    margin: 15px 15px;
+    width: 100px;
+    height: 100px;
+}
