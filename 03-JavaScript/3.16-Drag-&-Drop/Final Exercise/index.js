@@ -43,5 +43,5 @@ bin.addEventListener("dragover", (event) => {
 
 bin.addEventListener("drop", (event) => {
   const paragraphId = event.dataTransfer.getData("id");
-  document.getElementById(paragraphId.remove());
+  document.getElementById(paragraphId).remove();
 });
