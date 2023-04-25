@@ -21,12 +21,12 @@
     left: -100vw;
 }
 
-.bin {
+.binImg {
     display: flex;
     justify-content: center;
 }
 
-.binImg {
+.bin {
     margin: 15px 15px;
     width: 100px;
     height: 100px;
